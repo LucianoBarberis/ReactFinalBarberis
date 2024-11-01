@@ -4,8 +4,6 @@
                             
 # Proyecto final del curso de React JS
 
-Currently, two official plugins are available:
-
 # Sitio Web de E-Commerce LunaMarket🌙
 
 TENER EN CUENTA: ES UN SITIO MERAMENTE FICTICIO, NO REAL.
