@@ -1,0 +1,115 @@
+.checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 73.3vh;
+}
+
+.form {
+    --bg-light: #efefef;
+    --bg-dark: #707070;
+    --clr: #262626;
+    --clr-alpha: #efefef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.form .input-span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form input,
+.form input {
+    border-radius: 0.5rem;
+    padding: 1rem 0.75rem;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--clr-alpha);
+    outline: 2px solid var(--bg-dark);
+}
+
+.label {
+    align-self: flex-start;
+    color: var(--clr);
+    font-weight: 600;
+}
+
+.form .submit {
+    margin: 20px 0;
+    width: 300px;
+    height: 60px;
+    background-color: rgb(42, 42, 42);
+    border: 2px solid #262626;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.form .submit:hover {
+    transform: scale(1.1);
+}
+
+.span {
+    text-decoration: none;
+    color: var(--bg-dark);
+}
+
+.span a {
+    color: var(--clr);
+}
+
+.buy-finished {
+    color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 73.3vh;
+}
+
+.buy-finished div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 500px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    gap: 40px;
+}
+
+.buy-finished div h2 {
+    text-decoration: underline;
+}
+
+.button-to-home {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(42, 42, 42);
+    border: 2px solid #262626;
+    border-radius: 5px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.button-to-home:hover {
+    transform: scale(1.1);
+}
+

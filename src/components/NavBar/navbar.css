@@ -1,0 +1,66 @@
+.navbar{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: #252525;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.navbar .categories{
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.categories li {
+  margin-left: 20px;
+}
+.categories .category{
+  list-style: none;
+}
+.categories .category .text-link {
+  transition: all 0.2s ease-in-out;
+}
+.categories .category .text-link:hover{
+  color: #707070;
+}
+
+.brand{
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand .icon-brand{
+  font-size: 40px;
+}
+.brand .title-brand{
+  font-size: 35px;
+}
+
+.cartwidget{
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cartwidget path {
+  color: aliceblue;
+}
+.cartwidget .icon-cartwidget{
+  font-size: 30px;
+  color: #2ECC71;
+}
+.cartwidget .empty-cartwidget{
+  font-size: 30px;
+  color: rgb(64, 64, 64);
+}
+.cartwidget .number-cartwidget{
+  padding: 0 10px;
+}
+
+i {
+  margin-left: 10px;
+}
