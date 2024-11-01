@@ -1,12 +1,11 @@
 # LunaMarket 🌙
-##Link a Hosting en FIREBASE:
-https://trinity-ecommerce-f75e9.web.app/
+##Link a Hosting en Vercel:
 
 Proyecto final del curso de React JS
 
 Currently, two official plugins are available:
 
-# Sitio Web de E-Commerce Trinity
+# Sitio Web de E-Commerce LunaMarket🌙
 
 TENER EN CUENTA: ES UN SITIO MERAMENTE FICTICIO, NO REAL.
 Este es el repositorio para el sitio web e-commerce "LunaMarket". El sitio web ofrece una variedad de productos para el hogar como electrodomesticos y muebles para interiores y exteriores. Los usuarios pueden explorar diferentes categorías, ver detalles de los productos, agregar productos al carrito y realizar compras.
@@ -28,12 +27,12 @@ Este es el repositorio para el sitio web e-commerce "LunaMarket". El sitio web o
 Para poner en marcha este proyecto en tu máquina local, sigue los siguientes pasos:
 
 1. **Clonar el Repositorio:** Abre tu terminal y ejecuta el siguiente comando para clonar el repositorio en tu máquina:
-git clone 
+git clone https://github.com/LucianoBarberis/ReactFinalBarberis
 
 Reemplaza `tu-usuario` con tu nombre de usuario de GitHub.
 
 2. **Navegar al Directorio:** Accede al directorio del proyecto que has clonado:
-cd trinity-ecommerce
+cd ecommersReact
 
 3. **Instalar Dependencias:** Utiliza el siguiente comando para instalar todas las dependencias del proyecto:
 npm install
@@ -44,7 +43,6 @@ Esto instalará las bibliotecas y módulos necesarios definidos en el archivo `p
 
 npm run dev
 
-
 Esto iniciará la aplicación en modo de desarrollo y automáticamente se abrirá en tu navegador predeterminado en la dirección `http://localhost:`. seguido de un número que te aparecerá en consola
 
-5. **Explora la Aplicación:** Ahora puedes explorar y navegar por la aplicación "Trinity Store" en tu navegador.
+5. **Explora la Aplicación:** Ahora puedes explorar y navegar por la aplicación "LunaMarket" en tu navegador.
