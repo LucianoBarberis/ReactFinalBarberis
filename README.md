@@ -42,6 +42,6 @@ Esto instalará las bibliotecas y módulos necesarios definidos en el archivo `p
 
 npm run dev
 
-Esto iniciará la aplicación en modo de desarrollo y automáticamente se abrirá en tu navegador predeterminado en la dirección `http://localhost:`. seguido de un número que te aparecerá en consola
+Esto iniciará la aplicación en modo de desarrollo y automáticamente se abrirá en tu navegador predeterminado en la dirección `http://localhost:`. seguido de un número que te aparecerá en consola.
 
 5. **Explora la Aplicación:** Ahora puedes explorar y navegar por la aplicación "LunaMarket" en tu navegador.
