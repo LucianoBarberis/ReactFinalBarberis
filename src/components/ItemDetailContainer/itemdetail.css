@@ -44,7 +44,7 @@
   font-size: 1.3rem;
   color: #3d3d3d;
 }
-.button-end-buy{
+.button-detail{
   width: 200px;
   text-align: center;
   padding: 10px 0;
@@ -54,7 +54,8 @@
   color: white;
   cursor: pointer;
   transition: all 0.5s;
+  margin-top: 20px;
 }
-.button-end-buy:hover {
-  transform: scale(1.1);
+.button-detail:hover {
+  transform: scale(1.05);
 }

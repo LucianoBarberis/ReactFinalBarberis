@@ -21,7 +21,7 @@ const Cart = () => {
 
   return (
     <div className="cart" >
-      <h1 className="title-cart">Productos en el carrito</h1>
+      <div className="items">
       {
         cart.map( (productCart) => (
           <div className="item-cart" key={productCart.id}>
@@ -36,7 +36,7 @@ const Cart = () => {
           </div>
         ))
       }
-
+      </div>
       <div className="info-cart">
         <p className="text-info-cart">Precio total: ${totalPrice()}</p>
         <Link className="finish-buy" to="/checkout" >Continuar con mi compra</Link>

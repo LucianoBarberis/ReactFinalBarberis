@@ -69,7 +69,6 @@ const Checkout = () => {
                 setOrderId(response.id)
             })
             .finally(() => {
-                toast.success("Gracias por su compra!!")
                 updateStock()
             })
     }
@@ -79,7 +78,6 @@ const Checkout = () => {
             const productRef = doc(db, "products", id)
             setDoc(productRef, { ...productCart, stock: productCart.stock - quantity })
         })
-
         deleteCart()
     }
 

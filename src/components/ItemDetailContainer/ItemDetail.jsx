@@ -19,7 +19,10 @@ const ItemDetail = ({ product, addProduct, hideItemCount }) => {
         <p className="text-detail">Precio: ${product.precio}</p>
         {
           hideItemCount === true ? (
-            <Link to="/cart" className="button-end-buy">Terminar mi compra</Link>
+            <>
+              <Link to="/" className="button-detail">Volver al inicio</Link>
+              <Link to="/cart" className="button-detail">Terminar mi compra</Link>
+            </>
           ) : (
             <ItemCount stock={product.stock} addProduct={addProduct} />
           )
