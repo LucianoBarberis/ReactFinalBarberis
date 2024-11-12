@@ -23,8 +23,8 @@ h1 {
   font-size: 37px;
   font-weight: 600;
   background-color: #fff;
-  display: flex;
-  justify-content: center;
+
+  text-align: center;
   padding: 10px;
 }
 
@@ -34,4 +34,10 @@ h2 {
 
 .primary-font-color{
   color: #e7e7e7;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 34px;
+  }
 }

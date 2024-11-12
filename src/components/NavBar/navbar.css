@@ -40,7 +40,8 @@
 }
 
 .cartwidget{
-  width: 33.3%;
+  width: auto;
+  margin-left: 20%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -63,4 +64,21 @@
 
 i {
   margin-left: 10px;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    height: 130px;
+  }
+  .cartwidget {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar .categories .category .text-link{
+    font-size: 14px;
+  }
 }

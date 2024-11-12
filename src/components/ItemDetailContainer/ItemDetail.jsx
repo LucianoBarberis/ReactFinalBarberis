@@ -6,8 +6,6 @@ const ItemDetail = ({ product, addProduct, hideItemCount }) => {
   return (
     <div className="item-detail">
       <div className="images-detail-container">
-        <div className="secondary-images">
-        </div>
         <div className="main-image">
         <img src={product.imagen} className="img-item" alt="" height={500} width={1700} />
         </div>
