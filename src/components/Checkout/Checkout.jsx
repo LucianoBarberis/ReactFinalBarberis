@@ -88,7 +88,7 @@ const Checkout = () => {
                     <div>
                         <h2>Orden enviada</h2>
                         <p>Guarde su número de seguimiento: {orderId}</p>
-                        <img src="./public/svg/deal.svg" height={250} alt="" />
+                        <img src="./svg/deal.svg" height={250} alt="" />
                         <Link to="/" className="button-to-home">Volver al inicio</Link>
                     </div>
                 ) : (
